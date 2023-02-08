@@ -1,0 +1,10 @@
+POST http://localhost:8081/sendmail/send HTTP/1.1
+content-type: application/json
+
+{
+  "ownerRef": "Nilso",
+  "emailFrom": "nilsojunior97@gmail.com",
+  "emailTo":  "nilsojunior97@gmail.com",
+  "subject": "E-mail Test",
+  "text": "Lorem ipsum dolor sit amet. Aut praesentium quia eos corrupti enim est nemo reiciendis sit esse neque quo impedit rerum et cupiditate saepe et dolores modi. Aut magni voluptatum et rerum voluptatem ut vero facilis ut quisquam blanditiis. Ea nulla incidunt ea corrupti eaque a molestiae cupiditate 33 mollitia maxime qui facere veniam. Et architecto Quis aut veritatis quaerat eos commodi temporibus et sunt nulla et quibusdam Quis. Est quia omnis ut dolorem porro rem quia accusamus et amet incidunt ab officiis enim ea exercitationem ipsam non sunt rerum! Et deserunt debitis sed rerum saepe aut dolor facilis. Aut consequatur beatae ad animi delectus rem quia dolorem ut maiores nobis sed quia eaque. Qui esse veritatis et ipsum mollitia ut rerum reiciendis sit nemo Quis. Ad adipisci illo qui repudiandae facilis ut harum iure est sunt nihil ex aspernatur vero. Ut possimus voluptas sit porro aliquam est consequatur reprehenderit et atque voluptatem quo sunt eius et porro repudiandae et quod omnis?"
+}
